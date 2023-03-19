@@ -28,7 +28,7 @@ type BlackList struct {
 	List     string `json:"list"`
 }
 
-// GET USER INPUT
+// GET USER INPUTT
 func getUserInput() (string, string, string, error) {
 	reader := bufio.NewReader(os.Stdin)
 
